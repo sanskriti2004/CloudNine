@@ -51,6 +51,7 @@ button {
 }
 form > button {
   width: 30%;
+  color: var(--black);
 }
 input {
   border: none;
