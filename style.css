@@ -105,18 +105,14 @@ section {
 .weather-info-main-container > div {
   text-align: start;
 }
-/* .date {
-  margin-top: -2rem;
-} */
+
 .date,
 .temperature-range {
   font-size: 1.2rem;
   color: var(--white);
   opacity: 0.8;
 }
-/* .temperature-range {
-  margin-bottom: 2rem;
-} */
+
 .location {
   font-size: 1.8rem;
   color: var(--white);
@@ -167,4 +163,8 @@ li > p {
 }
 .hidden {
   display: none;
+}
+li:hover {
+  box-shadow: var(--shadow-us-hover);
+  transition: ease-in 200ms;
 }
