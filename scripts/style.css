@@ -1,0 +1,69 @@
+:root {
+  --white: #fdfdfd;
+  --black: #000;
+  --light-gray: #cccccc;
+  --gray: #575757;
+  --shadow-us: 5px 5px 20px rgba(0, 0, 0, 0.15);
+  --shadow-us-hover: 5px 5px 25px rgba(0, 0, 0, 0.25);
+  --gradient: linear-gradient(110deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 1.5rem;
+}
+
+header {
+  padding-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+button {
+  border: none;
+  width: 100%;
+  padding: 1rem 0;
+  border-radius: 5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: var(--white);
+  color: var(--light-gray);
+}
+form > button {
+  width: 30%;
+}
+input {
+  border: none;
+  padding: 1rem;
+  border-radius: 5rem;
+  font-size: 1rem;
+  width: 100%;
+  background-color: var(--white);
+  color: var(--gray);
+  padding: 1rem 1.5rem;
+}
+button,
+input {
+  box-shadow: var(--shadow-us);
+  transition: ease-in 200ms;
+}
