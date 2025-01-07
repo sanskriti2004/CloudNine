@@ -150,9 +150,7 @@ li {
   justify-content: space-between;
   padding: 1.5rem 2rem;
 }
-.mini-info {
-  grid-column: span 2;
-}
+
 li > p {
   font-size: 1rem;
   color: var(--light-gray);
@@ -167,4 +165,39 @@ li > p {
 li:hover {
   box-shadow: var(--shadow-us-hover);
   transition: ease-in 200ms;
+}
+.mini-info {
+  grid-column: span 2;
+  background: linear-gradient(110deg, #3e8ff5 10%, #f849ec 100%);
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.message {
+  font-size: 1.7rem;
+  color: var(--white);
+  opacity: 0.8;
+}
+.feels-like {
+  font-size: 1.1rem;
+  color: var(--white);
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+.svg-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.svg-cont > img {
+  width: 6rem;
+  height: auto;
 }
